@@ -1,0 +1,54 @@
+"""
+Importable field, for multiprocessing while producing tiles
+"""
+import numpy as np
+from stompy.spatial import field
+from stompy.spatial import interp_coverage
+
+import os
+opj=os.path.join
+
+IDRIVE='/media/idrive'
+
+def factory(attrs):
+    geo_bounds=attrs['geom'].bounds
+
+    if attrs['src_name']=='usgs_topobathy_2m':
+        # A nice seamless 2m DEM from USGS.  A bit blurred, so maybe more like 4m resolution, but
+        # still quite nice.
+        fn=opj(IDRIVE,
+               'BASELAYERS/Elevation_DerivedProducts/LiDAR 2005-2012 entire Bay Area from AECOM',
+               'USGS_TopoBathy/San_Francisco_TopoBathy_Elevation_2m.tif') 
+        return field.GdalGrid(fn,geo_bounds=geo_bounds)
+    if attrs['src_name']=='USGS Alviso 2010':
+        # The 2010 data from USGS Open File Report 2011-1315, Amy Foxgrover et al Alviso data.
+        fn='../../usgs/bathymetry/alviso_ofr2011_1315/2010/2010_DEM_UTM_NAVD88.tif'
+        return field.GdalGrid(fn,geo_bounds=geo_bounds)
+    if attrs['src_name']=='NOAA Sidescan SBB02_1m':
+        # Recent NOAA sidescan for subtidal portions of LSB
+        fn='../../noaa/bathy/sf_bay_sidescan/Area B -SSS Bathymetry/BAG/SBB02_1m.bag'
+        dem=field.GdalGrid(fn,geo_bounds=geo_bounds)
+        dem.F=dem.F[:,:,0] # Drop the second channel
+        return dem
+    if attrs['src_name']=='interp_lines':
+        fn='../sources/interp_lines.tif'
+        return field.GdalGrid(fn,geo_bounds=geo_bounds)
+    if attrs['src_name']=='all_sloughs_061610':
+        fn='../sources/all_sloughs_061610.tif'
+        return field.GdalGrid(fn,geo_bounds=geo_bounds)
+    if attrs['src_name']=='guadalupe_sections_remove_local_minima':
+        fn='../sources/guadalupe_sections_remove_local_minima.tif'
+        return field.GdalGrid(fn,geo_bounds=geo_bounds)
+    if attrs['src_name'].startswith('py:'):
+        expr=attrs['src_name'][3:]
+        # something like 'ConstantField(-1.0)'
+        # a little sneaky... make it look like it's running
+        # after a "from stompy.spatial.field import *"
+        # and also it gets fields of the shapefile
+        return eval(s,dict(field.__dict__),attrs)
+        
+    assert False
+
+src_shp='sources_v01.shp'
+
+mbf=field.MultiBlender(src_shp,factory=factory)
