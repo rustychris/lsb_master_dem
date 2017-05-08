@@ -5,16 +5,31 @@
   <evaluateDefaultValues active="0"/>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="gate_locations20170426164752415" name="gate_locations">
+    <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="SFBayShoreInventory2016_shoretypes20170427122138543" name="SFBayShoreInventory2016_shoretypes">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="0" checked="Qt::Checked" id="alviso_grid_copy20161027134230982" name="alviso-grid copy">
+    <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="fm_bathy20170504173203694" name="fm_bathy">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="sources_v0120170427154221348" name="sources_v01">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="gate_locations20170426164752415" name="gate_locations">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" checked="Qt::Checked" id="hillshade_0120170501164812068" name="hillshade-01">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="alviso_grid_copy20161027134230982" name="alviso-grid copy">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="merged_ponds20170508114239398" name="merged_ponds">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="merged_5m20170501164641111" name="merged_5m">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="SFBayShoreInventory2016_meanelevs20170427123320342" name="SFBayShoreInventory2016_meanelevs">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="SFBayShoreInventory2016_shoretypes20170427122138543" name="SFBayShoreInventory2016_shoretypes">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="pacific_coast_line_wgs8420170118103649538" name="pacific_coast-line-wgs84">
@@ -101,13 +116,13 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="sources_v0120170427154221348" name="sources_v01">
-      <customproperties/>
-    </layer-tree-layer>
     <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="interp_lines20170427155202580" name="interp_lines">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="0" checked="Qt::Checked" id="all_sloughs_06161020170427155137476" name="all_sloughs_061610">
+    <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="guadalupe_sections_remove_local_minima20170501093622218" name="guadalupe_sections_remove_local_minima">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="all_sloughs_06161020170427155137476" name="all_sloughs_061610">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="dataset_partitions20170427155023107" name="dataset-partitions">
@@ -184,10 +199,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>583935.25759138574358076</xmin>
-      <ymin>4138551.87757958704605699</ymin>
-      <xmax>596535.25759138574358076</xmax>
-      <ymax>4151151.87757958704605699</ymax>
+      <xmin>586987.98716350877657533</xmin>
+      <ymin>4143039.94293839856982231</ymin>
+      <xmax>589045.25753953540697694</xmax>
+      <ymax>4144583.02426768466830254</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -205,42 +220,54 @@
     </destinationsrs>
     <rendermaptile>0</rendermaptile>
     <layer_coordinate_transform_info>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="hillshade_0120170501164812068"/>
       <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="CA1B2620170420134152480"/>
-      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="CA1B2420170420134121377"/>
-      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="coyote_2m_navd8820161013103036475"/>
-      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="interp_lines20170427155202580"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="gate_locations20170426164752415"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="SFBayShoreInventory2016_meanelevs20170427123320342"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="San_Francisco_TopoBathy_Elevation_2m_copy20170427155713005"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="SA2B0220170420132330892"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="SA1B0520170420132559285"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="SA2B0120170420132406132"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="SA1B0820170420132512480"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="SFBayShoreInventory2016_shoretypes20170427122138543"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="merged_5m20170501164355428"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="SA1B0420170420132455144"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="CBB02_1mClr20170420120240766"/>
       <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="sources_v0120170427154221348"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="fm_bathy20170504173203694"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="SJSC_Bay_Delta_mNAVD88_620160610113654393"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="all_sloughs_06161020170427155137476"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="10SDH960620170427140204931"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="mouthSFBay_5m_merged_colorsinterp20170508111620012"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="NBB03_1mClr20170420120441625"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="San_Francisco_TopoBathy_Elevation_2m20170427122755196"/>
       <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="NBB05_1mClr20170420120457632"/>
-      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="SBB02_1mClr20170420115813682"/>
-      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="NA1B1520170420133900246"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="alviso_grid_copy20161027134230982"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="dataset_partitions20170427155023107"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="r18c_net_edges20170203130047299"/>
       <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="NBB04_1mClr20170420120451059"/>
-      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="NBB02_1mClr20170420120434038"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="NA1B2320170420134044713"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="SBB01_1mClr20170420120602606"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="CBB01_1mClr20170420120221724"/>
       <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="NBB01_1mClr20170420120257730"/>
       <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="sfbaydeltadem10m201620170427132613531"/>
-      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="NA1B2320170420134044713"/>
-      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="San_Francisco_TopoBathy_Elevation_2m20170427122755196"/>
-      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="all_sloughs_06161020170427155137476"/>
-      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="alviso_grid_copy20161027134230982"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="CA1B2420170420134121377"/>
       <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="SBB02_1m20170420132848196"/>
-      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="CA1B2220170420134218635"/>
-      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="San_Francisco_TopoBathy_Elevation_2m_copy20170427155713005"/>
-      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="SBB01_1mClr20170420120602606"/>
-      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="SFBayShoreInventory2016_meanelevs20170427123320342"/>
-      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="SA2B0220170420132330892"/>
-      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="NBB03_1mClr20170420120441625"/>
-      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="CBB01_1mClr20170420120221724"/>
-      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="CBB03_1mClr20170420120248756"/>
-      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="SA2B0120170420132406132"/>
-      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="SA1B0420170420132455144"/>
-      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="10SEH891920170427140252819"/>
-      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="dataset_partitions20170427155023107"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="NBB02_1mClr20170420120434038"/>
       <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="CA1B1120170420132303936"/>
-      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="10SDH960620170427140204931"/>
-      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="CBB02_1mClr20170420120240766"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="merged_5m20170501161054821"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="NA1B1520170420133900246"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="CBB03_1mClr20170420120248756"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="interp_lines20170427155202580"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="guadalupe_sections_remove_local_minima20170501093622218"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="merged_5m20170501164641111"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="coyote_2m_navd8820161013103036475"/>
       <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="2010_DEM_UTM_NAVD8820170427113434353"/>
-      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="SA1B0820170420132512480"/>
-      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="SA1B0520170420132559285"/>
-      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="SJSC_Bay_Delta_mNAVD88_620160610113654393"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="10SEH891920170427140252819"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="CA1B2220170420134218635"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="merged_ponds20170508114239398"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="SBB02_1mClr20170420115813682"/>
+      <layer_coordinate_transform destAuthId="EPSG:26910" srcAuthId="EPSG:26910" srcDatumTransform="-1" destDatumTransform="-1" layerid="merged_5m20170501154548234"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
   <layer-tree-canvas>
@@ -301,27 +328,57 @@
       <item>all_sloughs_06161020170427155137476</item>
       <item>interp_lines20170427155202580</item>
       <item>San_Francisco_TopoBathy_Elevation_2m_copy20170427155713005</item>
+      <item>guadalupe_sections_remove_local_minima20170501093622218</item>
+      <item>merged_5m20170501164641111</item>
+      <item>hillshade_0120170501164812068</item>
+      <item>fm_bathy20170504173203694</item>
+      <item>merged_ponds20170508114239398</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="gate_locations" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="gate_locations20170426164752415" visible="0"/>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="SFBayShoreInventory2016_shoretypes" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="SFBayShoreInventory2016_shoretypes20170427122138543" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="alviso-grid copy" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="fm_bathy" showFeatureCount="0">
       <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="alviso_grid_copy20161027134230982" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="fm_bathy20170504173203694" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="sources_v01" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="sources_v0120170427154221348" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="gate_locations" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="gate_locations20170426164752415" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="hillshade-01" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="hillshade_0120170501164812068" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="alviso-grid copy" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="alviso_grid_copy20161027134230982" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="merged_ponds" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="merged_ponds20170508114239398" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="merged_5m" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="merged_5m20170501164641111" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="SFBayShoreInventory2016_meanelevs" showFeatureCount="0">
       <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" layerid="SFBayShoreInventory2016_meanelevs20170427123320342" visible="0"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="SFBayShoreInventory2016_shoretypes" showFeatureCount="0">
-      <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="SFBayShoreInventory2016_shoretypes20170427122138543" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="pacific_coast-line-wgs84" showFeatureCount="0">
@@ -461,19 +518,19 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="sources_v01" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="sources_v0120170427154221348" visible="1"/>
-      </filegroup>
-    </legendlayer>
     <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="interp_lines" showFeatureCount="0">
       <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" layerid="interp_lines20170427155202580" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="all_sloughs_061610" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="guadalupe_sections_remove_local_minima" showFeatureCount="0">
       <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="all_sloughs_06161020170427155137476" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="guadalupe_sections_remove_local_minima20170501093622218" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="all_sloughs_061610" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="all_sloughs_06161020170427155137476" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="dataset-partitions" showFeatureCount="0">
@@ -3846,9 +3903,9 @@ def my_form_open(dialog, layer, feature):
       </edittypes>
       <renderer-v2 attr="Class" forceraster="0" symbollevels="0" type="categorizedSymbol" enableorderby="0">
         <categories>
-          <category render="true" symbol="0" value="Berm" label="Berm"/>
+          <category render="false" symbol="0" value="Berm" label="Berm"/>
           <category render="true" symbol="1" value="Channel or Opening" label="Channel or Opening"/>
-          <category render="true" symbol="2" value="Embankment" label="Embankment"/>
+          <category render="false" symbol="2" value="Embankment" label="Embankment"/>
           <category render="true" symbol="3" value="Engineered Levee" label="Engineered Levee"/>
           <category render="true" symbol="4" value="Floodwall" label="Floodwall"/>
           <category render="true" symbol="5" value="Natural Shoreline" label="Natural Shoreline"/>
@@ -3880,15 +3937,15 @@ def my_form_open(dialog, layer, feature):
           </symbol>
           <symbol alpha="1" clip_to_extent="1" type="line" name="1">
             <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
+              <prop k="capstyle" v="round"/>
               <prop k="customdash" v="5;2"/>
               <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="82,143,209,255"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="245,0,221,255"/>
               <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.66"/>
+              <prop k="line_width" v="1.56"/>
               <prop k="line_width_unit" v="MM"/>
               <prop k="offset" v="0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -4137,7 +4194,7 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
         <property key="labeling/fontStrikeout" value="false"/>
         <property key="labeling/fontUnderline" value="false"/>
-        <property key="labeling/fontWeight" value="50"/>
+        <property key="labeling/fontWeight" value="63"/>
         <property key="labeling/fontWordSpacing" value="0"/>
         <property key="labeling/formatNumbers" value="false"/>
         <property key="labeling/isExpression" value="true"/>
@@ -7326,6 +7383,67 @@ def my_form_open(dialog, layer, feature):
         <fieldstyles/>
       </conditionalstyles>
     </maplayer>
+    <maplayer minimumScale="1" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>583976.3573329618666321</xmin>
+        <ymin>4227486.04437578842043877</ymin>
+        <xmax>585397.3573329618666321</xmax>
+        <ymax>4229105.04437578842043877</ymax>
+      </extent>
+      <id>fm_bathy20170504173203694</id>
+      <datasource>/home/rusty/data/ucdavis/bathy/fm_bathy.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>fm_bathy</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=10 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2287</srsid>
+          <srid>26910</srid>
+          <authid>EPSG:26910</authid>
+          <description>NAD83 / UTM zone 10N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" classificationMax="nan" classificationMinMaxOrigin="Unknown" band="1" classificationMin="nan" type="singlebandpseudocolor">
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="-20" label="Custom color map entry" color="#09b400"/>
+              <item alpha="255" value="-15" label="Custom color map entry" color="#fffb02"/>
+              <item alpha="255" value="-10" label="Custom color map entry" color="#ff1500"/>
+              <item alpha="255" value="-5" label="" color="#b400cb"/>
+              <item alpha="255" value="-4" label="" color="#3e01cb"/>
+              <item alpha="255" value="-3" label="" color="#0065e1"/>
+              <item alpha="255" value="-2" label="" color="#00cb98"/>
+              <item alpha="255" value="-1" label="" color="#00bf1f"/>
+              <item alpha="255" value="0" label="" color="#6ec800"/>
+              <item alpha="255" value="1" label="" color="#aede00"/>
+              <item alpha="255" value="2" label="" color="#e8ba00"/>
+              <item alpha="255" value="3" label="" color="#e65c00"/>
+              <item alpha="255" value="4.7" label="" color="#e1001e"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>gate_locations20170426164752415</id>
       <datasource>/home/rusty/src/sfbay_operations/sources/gate_locations.shp</datasource>
@@ -7529,9 +7647,9 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/shapeType" value="0"/>
         <property key="labeling/substitutions" value="&lt;substitutions/>"/>
         <property key="labeling/textColorA" value="255"/>
-        <property key="labeling/textColorB" value="1"/>
-        <property key="labeling/textColorG" value="243"/>
-        <property key="labeling/textColorR" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
         <property key="labeling/textTransp" value="0"/>
         <property key="labeling/upsidedownLabels" value="0"/>
         <property key="labeling/useSubstitutions" value="false"/>
@@ -7954,6 +8072,69 @@ def my_form_open(dialog, layer, feature):
         <fieldstyles/>
       </conditionalstyles>
     </maplayer>
+    <maplayer minimumScale="1" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>584000.5</xmin>
+        <ymin>4139000.5</ymin>
+        <xmax>591001.5</xmax>
+        <ymax>4146001.5</ymax>
+      </extent>
+      <id>guadalupe_sections_remove_local_minima20170501093622218</id>
+      <datasource>/home/rusty/data/bathy_interp/sources/guadalupe_sections_remove_local_minima.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>guadalupe_sections_remove_local_minima</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=10 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2287</srsid>
+          <srid>26910</srid>
+          <authid>EPSG:26910</authid>
+          <description>NAD83 / UTM zone 10N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="0" classificationMax="1.15024" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="-3.51371" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="-20" label="Custom color map entry" color="#09b400"/>
+              <item alpha="255" value="-15" label="Custom color map entry" color="#fffb02"/>
+              <item alpha="255" value="-10" label="Custom color map entry" color="#ff1500"/>
+              <item alpha="255" value="-5" label="-5" color="#b400cb"/>
+              <item alpha="255" value="-4" label="-4" color="#3e01cb"/>
+              <item alpha="255" value="-3" label="-3" color="#0065e1"/>
+              <item alpha="255" value="-2" label="-2" color="#00cb98"/>
+              <item alpha="255" value="-1" label="-1" color="#00bf1f"/>
+              <item alpha="255" value="0" label="0" color="#6ec800"/>
+              <item alpha="255" value="0.1" label="0.1" color="#ff00ff"/>
+              <item alpha="255" value="1" label="1" color="#aede00"/>
+              <item alpha="255" value="2" label="2" color="#e8ba00"/>
+              <item alpha="255" value="3" label="3" color="#e65c00"/>
+              <item alpha="255" value="4.7" label="4.7" color="#e1001e"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>6447000</xmin>
@@ -8014,6 +8195,57 @@ def my_form_open(dialog, layer, feature):
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
+    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>575997.5</xmin>
+        <ymin>4136997.5</ymin>
+        <xmax>596002.5</xmax>
+        <ymax>4152002.5</ymax>
+      </extent>
+      <id>hillshade_0120170501164812068</id>
+      <datasource>/home/rusty/hillshade-01.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>hillshade-01</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=10 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2287</srsid>
+          <srid>26910</srid>
+          <authid>EPSG:26910</authid>
+          <description>NAD83 / UTM zone 10N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" opacity="0.678431" alphaBand="-1" type="singlebandgray" grayBand="1">
+          <rasterTransparency/>
+          <contrastEnhancement>
+            <minValue>163</minValue>
+            <maxValue>194</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>6</blendMode>
+    </maplayer>
     <maplayer minimumScale="1" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>588289.49986999481916428</xmin>
@@ -8045,6 +8277,128 @@ def my_form_open(dialog, layer, feature):
       <provider>gdal</provider>
       <noData>
         <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" classificationMax="nan" classificationMinMaxOrigin="Unknown" band="1" classificationMin="nan" type="singlebandpseudocolor">
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="-20" label="Custom color map entry" color="#09b400"/>
+              <item alpha="255" value="-15" label="Custom color map entry" color="#fffb02"/>
+              <item alpha="255" value="-10" label="Custom color map entry" color="#ff1500"/>
+              <item alpha="255" value="-5" label="" color="#b400cb"/>
+              <item alpha="255" value="-4" label="" color="#3e01cb"/>
+              <item alpha="255" value="-3" label="" color="#0065e1"/>
+              <item alpha="255" value="-2" label="" color="#00cb98"/>
+              <item alpha="255" value="-1" label="" color="#00bf1f"/>
+              <item alpha="255" value="0" label="" color="#6ec800"/>
+              <item alpha="255" value="1" label="" color="#aede00"/>
+              <item alpha="255" value="2" label="" color="#e8ba00"/>
+              <item alpha="255" value="3" label="" color="#e65c00"/>
+              <item alpha="255" value="4.7" label="" color="#e1001e"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="1" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>575997.5</xmin>
+        <ymin>4136997.5</ymin>
+        <xmax>596002.5</xmax>
+        <ymax>4152002.5</ymax>
+      </extent>
+      <id>merged_5m20170501164641111</id>
+      <datasource>/home/rusty/data/bathy_interp/master2017/tiles_5m_20170501/merged_5m.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>merged_5m</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=10 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2287</srsid>
+          <srid>26910</srid>
+          <authid>EPSG:26910</authid>
+          <description>NAD83 / UTM zone 10N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" classificationMax="nan" classificationMinMaxOrigin="Unknown" band="1" classificationMin="nan" type="singlebandpseudocolor">
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="-20" label="Custom color map entry" color="#09b400"/>
+              <item alpha="255" value="-15" label="Custom color map entry" color="#fffb02"/>
+              <item alpha="255" value="-10" label="Custom color map entry" color="#ff1500"/>
+              <item alpha="255" value="-5" label="" color="#b400cb"/>
+              <item alpha="255" value="-4" label="" color="#3e01cb"/>
+              <item alpha="255" value="-3" label="" color="#0065e1"/>
+              <item alpha="255" value="-2" label="" color="#00cb98"/>
+              <item alpha="255" value="-1" label="" color="#00bf1f"/>
+              <item alpha="255" value="0" label="" color="#6ec800"/>
+              <item alpha="255" value="1" label="" color="#aede00"/>
+              <item alpha="255" value="2" label="" color="#e8ba00"/>
+              <item alpha="255" value="3" label="" color="#e65c00"/>
+              <item alpha="255" value="4.7" label="" color="#e1001e"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="1" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>575091.16061579005327076</xmin>
+        <ymin>4142027.8888782006688416</ymin>
+        <xmax>592741.16061579005327076</xmax>
+        <ymax>4164227.8888782006688416</ymax>
+      </extent>
+      <id>merged_ponds20170508114239398</id>
+      <datasource>/home/rusty/data/sbsprp/SbayPondBathy2005/merged_ponds.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>merged_ponds</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=10 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2287</srsid>
+          <srid>26910</srid>
+          <authid>EPSG:26910</authid>
+          <description>NAD83 / UTM zone 10N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
       </noData>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
@@ -9311,6 +9665,8 @@ def my_form_open(dialog, layer, feature):
         <default field="id" expression=""/>
         <default field="src_name" expression=""/>
         <default field="src_path" expression=""/>
+        <default field="priority" expression=""/>
+        <default field="buffer" expression=""/>
       </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
@@ -9325,6 +9681,12 @@ def my_form_open(dialog, layer, feature):
         <edittype widgetv2type="TextEdit" name="src_path">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="priority">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="buffer">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
       </edittypes>
       <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
         <symbols>
@@ -9336,11 +9698,11 @@ def my_form_open(dialog, layer, feature):
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,185,81,255"/>
+              <prop k="outline_color" v="123,0,121,255"/>
               <prop k="outline_style" v="solid"/>
               <prop k="outline_width" v="0.46"/>
               <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
+              <prop k="style" v="no"/>
             </layer>
           </symbol>
         </symbols>
@@ -9373,9 +9735,9 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/dist" value="0"/>
         <property key="labeling/distInMapUnits" value="false"/>
         <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/drawLabels" value="false"/>
-        <property key="labeling/enabled" value="false"/>
-        <property key="labeling/fieldName" value=""/>
+        <property key="labeling/drawLabels" value="true"/>
+        <property key="labeling/enabled" value="true"/>
+        <property key="labeling/fieldName" value="src_name"/>
         <property key="labeling/fitInPolygonOnly" value="false"/>
         <property key="labeling/fontCapitals" value="0"/>
         <property key="labeling/fontFamily" value="Ubuntu"/>
@@ -9389,10 +9751,10 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
         <property key="labeling/fontStrikeout" value="false"/>
         <property key="labeling/fontUnderline" value="false"/>
-        <property key="labeling/fontWeight" value="50"/>
+        <property key="labeling/fontWeight" value="63"/>
         <property key="labeling/fontWordSpacing" value="0"/>
         <property key="labeling/formatNumbers" value="false"/>
-        <property key="labeling/isExpression" value="true"/>
+        <property key="labeling/isExpression" value="false"/>
         <property key="labeling/labelOffsetInMapUnits" value="true"/>
         <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0"/>
         <property key="labeling/labelPerPart" value="false"/>
@@ -9549,6 +9911,8 @@ def my_form_open(dialog, layer, feature):
         <alias field="id" index="0" name=""/>
         <alias field="src_name" index="1" name=""/>
         <alias field="src_path" index="2" name=""/>
+        <alias field="priority" index="3" name=""/>
+        <alias field="buffer" index="4" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -9559,6 +9923,8 @@ def my_form_open(dialog, layer, feature):
           <column width="307" hidden="0" type="field" name="src_name"/>
           <column width="-1" hidden="0" type="field" name="src_path"/>
           <column width="-1" hidden="1" type="actions"/>
+          <column width="-1" hidden="0" type="field" name="priority"/>
+          <column width="-1" hidden="0" type="field" name="buffer"/>
         </columns>
       </attributetableconfig>
       <editform></editform>
@@ -9677,10 +10043,14 @@ def my_form_open(dialog, layer, feature):
         <value>gate_locations20170426164752415</value>
         <value>SFBayShoreInventory2016_shoretypes20170427122138543</value>
         <value>SFBayShoreInventory2016_meanelevs20170427123320342</value>
+        <value>sources_v0120170427154221348</value>
+        <value>dataset_partitions20170427155023107</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
         <value>disabled</value>
         <value>enabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
@@ -9705,6 +10075,8 @@ def my_form_open(dialog, layer, feature):
         <value>2</value>
         <value>2</value>
         <value>2</value>
+        <value>2</value>
+        <value>2</value>
       </LayerSnappingToleranceUnitList>
       <LayerSnapToList type="QStringList">
         <value>to_vertex</value>
@@ -9718,11 +10090,15 @@ def my_form_open(dialog, layer, feature):
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
       </LayerSnapToList>
       <DefaultSnapType type="QString">off</DefaultSnapType>
       <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
       <TopologicalEditing type="int">0</TopologicalEditing>
       <LayerSnappingToleranceList type="QStringList">
+        <value>0.000000</value>
+        <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>

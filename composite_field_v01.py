@@ -10,6 +10,12 @@ opj=os.path.join
 
 IDRIVE='/media/idrive'
 
+class PointsInPoly(field.XYZField):
+    """
+    Test-driving a field which subsets a point dataset, and performs
+    basic interpolation 
+    """
+
 def factory(attrs):
     geo_bounds=attrs['geom'].bounds
 
@@ -19,6 +25,9 @@ def factory(attrs):
         fn=opj(IDRIVE,
                'BASELAYERS/Elevation_DerivedProducts/LiDAR 2005-2012 entire Bay Area from AECOM',
                'USGS_TopoBathy/San_Francisco_TopoBathy_Elevation_2m.tif') 
+        return field.GdalGrid(fn,geo_bounds=geo_bounds)
+    if attrs['src_name']=='merged_ponds_25m':
+        fn='../../sbsprp/SbayPondBathy2005/merged_ponds.tif'
         return field.GdalGrid(fn,geo_bounds=geo_bounds)
     if attrs['src_name']=='USGS Alviso 2010':
         # The 2010 data from USGS Open File Report 2011-1315, Amy Foxgrover et al Alviso data.
@@ -45,10 +54,12 @@ def factory(attrs):
         # a little sneaky... make it look like it's running
         # after a "from stompy.spatial.field import *"
         # and also it gets fields of the shapefile
-        return eval(s,dict(field.__dict__),attrs)
+        field_hash=dict(field.__dict__)
+        field_hash['PointsInPoly']=PointsInPoly
+        return eval(expr,field_hash,attrs)
         
     assert False
 
 src_shp='sources_v01.shp'
 
-mbf=field.MultiBlender(src_shp,factory=factory)
+mbf=field.MultiBlender(src_shp,factory=factory,buffer_field='buffer')
