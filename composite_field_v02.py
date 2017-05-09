@@ -28,8 +28,7 @@ def factory(attrs):
         return field.GdalGrid(fn,geo_bounds=geo_bounds)
     if attrs['src_name']=='merged_ponds_25m':
         fn='../../sbsprp/SbayPondBathy2005/merged_ponds.tif'
-        dem=field.GdalGrid(fn,geo_bounds=geo_bounds)
-        dem.F *= 0.3048 # hrrmpph - meters in the horizontal, feet in the vertical?
+        return field.GdalGrid(fn,geo_bounds=geo_bounds)
     if attrs['src_name']=='USGS Alviso 2010':
         # The 2010 data from USGS Open File Report 2011-1315, Amy Foxgrover et al Alviso data.
         fn='../../usgs/bathymetry/alviso_ofr2011_1315/2010/2010_DEM_UTM_NAVD88.tif'
@@ -61,6 +60,6 @@ def factory(attrs):
         
     assert False
 
-src_shp='sources_v01.shp'
+src_shp='sources_v02.shp'
 
 mbf=field.MultiBlender(src_shp,factory=factory,buffer_field='buffer')

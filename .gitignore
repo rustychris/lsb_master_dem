@@ -1,6 +1,7 @@
 *~
 *.pyc
 tiles_5m_20170501
+tiles_2m_*
 compare_to_alviso_grid_*.png
 
 
