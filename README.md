@@ -11,3 +11,4 @@ The scripts merge topography and bathymetry data from a range of sources, notabl
  The resulting 2m, stitched dataset is available via 
  <a href="http://sfbaynutrients.sfei.org/erddap/griddap/bathy_sfei_lsb_v001.graph">SFEI ERDDAP</a>
  
+<img src="docs/bathy_sfei_lsb_v001.png"/>
