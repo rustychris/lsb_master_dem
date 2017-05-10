@@ -10,18 +10,24 @@ opj=os.path.join
 from stompy.spatial import interp_coverage
 import composite_field_v01 
 
-from composite_field_v01 import mbf
+from composite_field_v02 import mbf
 
-
+def fill_holes(dem):
+    dem.fill_by_convolution(iterations='adaptive',smoothing=2,kernel_size=7)
 
 def f(args):
     fn,xxyy,res = args
     if not os.path.exists(fn):
         try:
-            mbf.to_grid(dx=res,dy=res,bounds=xxyy).write_gdal(fn)
+            dem=mbf.to_grid(dx=res,dy=res,bounds=xxyy)
+            # not great, since we're not padding the borders, but
+            # there is very little filling now that the 2m dataset
+            # is so pervasive.
+            fill_holes(dem)
+            dem.write_gdal(fn)
         except Exception as exc:
             print "Failed with exception"
-            print exc
+            print repr(exc)
 
 if __name__ == '__main__':
     dem_dir="tiles_2m_20170508"
