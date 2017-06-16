@@ -145,6 +145,4 @@ fig.savefig('remove_flat_ponds-v00.png')
 
 out.write_gdal('../sources/usgs_2m_remove_flat_ponds_v00.tif')
 
-# -0.37 might not have been a good one...
-# not sure about 1.13.
-# the others look good.
+

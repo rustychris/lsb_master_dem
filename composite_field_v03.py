@@ -32,7 +32,8 @@ def factory(attrs):
         fn='../sources/usgs_2m_remove_flat_ponds_v00.tif'
         return field.GdalGrid(fn,geo_bounds=geo_bounds)
     if attrs['src_name']=='merged_ponds_25m':
-        fn='../../sbsprp/SbayPondBathy2005/merged_ponds.tif'
+        #fn='../../sbsprp/SbayPondBathy2005/merged_ponds.tif'
+        fn='../sources/merged_ponds_2m_smoothed.tif'
         return field.GdalGrid(fn,geo_bounds=geo_bounds)
     if attrs['src_name']=='USGS Alviso 2010':
         # The 2010 data from USGS Open File Report 2011-1315, Amy Foxgrover et al Alviso data.
