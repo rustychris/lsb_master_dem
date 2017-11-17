@@ -45,7 +45,7 @@ def f(args):
             print repr(exc)
 
 if __name__ == '__main__':
-    dem_dir="tiles_2m_20170615"
+    dem_dir="tiles_2m_20171024"
     os.path.exists(dem_dir) or os.mkdir(dem_dir)
 
     res=2.0
